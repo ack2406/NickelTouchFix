@@ -76,7 +76,7 @@ just build
 docker run --rm -v "$PWD:/src" -w /src ghcr.io/pgaskin/nickeltc:1.0 make all koboroot
 ```
 
-The build produces `libnickeltouchfix.so` and `KoboRoot.tgz`. GitHub Actions builds every push and creates a draft release for tags.
+The build produces `libnickeltouchfix.so` and `KoboRoot.tgz`. GitHub Actions builds every push and publishes a release for tags.
 
 ## Credits and license
 
